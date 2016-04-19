@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Нёрдс - каталог</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="main-header-block container">
+        <div class="nerds-logo">
+          <img src="http://placehold.it/150x100" alt="Nerds logo">
+        </div>
+        <nav class="main-header-navigation">
+          <ul>
+            <li>
+              <a href="#">СТУДИЯ</a>
+            </li>
+            <li>
+              <a href="#">КЛИЕНТЫ</a>
+            </li>
+            <li>
+              <a href="#">МАГАЗИН</a>
+            </li>
+            <li>
+              <a href="#">КОНТАКТЫ</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="main-header-cart">
+          <a class="login" href="#">КОРЗИНА</a>
+        </div>
+      </div>
+      <h1 class="main-header-title container">
+        Добро пожаловать в магазин готовых макетов
+      </h1>
+    </header>
+    <main class="container">
+      <section class="catalog-left-column">
+        <form action="" method="post">
+          <div class="catalog-filters">
+            <section class="price-filter">
+              <h3 class="catalog-filters-title price-filter-title">
+                СТОИМОСТЬ:
+              </h3>
+              <div class="price-filter-box">
+                <div class="price-filter-left-edge"></div>
+                <div class="price-filter-scale"></div>
+                <div class="price-filter-right-edge"></div>
+              </div>
+              <label>
+                <span>ОТ</span>
+                <input type="text" id="price-filter-from" name="price-from" value="0">
+              </label>
+              <label> 
+                <span>ДО</span>
+                <input type="text" id="price-filter-to" name="price-to" value="15000">
+              </label>
+            </section>
+            <section class="grid-filter">
+              <h3 class="catalog-filters-title grid-filter-title">
+                СЕТКА:
+              </h3>
+              <label>
+                <input type="radio" id="grid-filter-adaptive" name="grid" value="adaptive" checked >
+                <span>Адаптивная</span>
+              </label>
+              <label>
+                <input type="radio" id="grid-filter-fixed" name="grid" value="fixed">
+                <span>Фиксированная</span>
+              </label>
+              <label>
+                <input type="radio" id="grid-filter-rubber" name="grid" value="rubber">
+                <span>Резиновая</span>
+              </label>              
+            </section>
+            <section class="features-filter">
+              <h3 class="catalog-filters-title features-filter-title">
+                ОСОБЕННОСТИ:
+              </h3>
+              <label>
+                <input type="checkbox" id="features-filter-slider" name="features-slider" value="slider" checked>
+                <span>Слайдер</span>
+              </label>
+              <label>
+                <input type="checkbox" id="features-filter-advantages" name="features-advantages" value="advantages" >
+                <span>Блок преимуществ</span>
+              </label>
+              <label>
+                <input type="checkbox" id="features-filter-news" name="features-news" value="news" checked >
+                <span>Новости</span>
+              </label>
+              <label>
+                <input type="checkbox" id="features-filter-gallery" name="features-gallery" value="gallery" >
+                <span>Галерея</span>
+              </label>
+              <label>
+                <input type="checkbox" id="features-filter-cart" name="features-cart" value="cart" >
+                <span>Корзина</span>
+              </label>
+            </section>
+            <input type="submit" id="catalog-filters-btn" name="filters-btn" value="ПОКАЗАТЬ">
+          </div>
+        </form>
+      </section>
+      <section class="catlog-right-column" >
+        <div class="catalog-sort">
+          <span>СОРТИРОВАТЬ:</span>
+          <a class="catalog-sort-link" href="#">ПО ЦЕНЕ</a>
+          <a class="catalog-sort-link" href="#">ПО ТИПУ</a>
+          <a class="catalog-sort-link" href="#">ПО ФУНКЦИОНАЛУ</a>
+          <a class="catalog-sort-up" href="#"></a>
+          <a class="catalog-sort-down" href="#"></a>
+        </div>
+        <div class="catalog-gallery">
+          <div class="catalog-gallery-item">
+            <figure class="catalog-gallery-img">
+               <img src="http://placehold.it/150x100" alt="Aviator" >
+            </figure>
+            <div class="catalog-gallery-box">
+              <h3 class="catalog-gallery-box-title">
+                AVIATOR
+              </h3>
+              <p class="catalog-gallery-box-content">
+                Одностраничный макет с авторским дизайном
+              </p>
+              <a class="catalog-gallery-box-price" href="#">8000 Р.</a>
+            </div>
+          </div>
+          <div class="catalog-gallery-item">
+            <figure class="catalog-gallery-img">
+               <img src="http://placehold.it/150x100" alt="Sunset" >
+            </figure>
+            <div class="catalog-gallery-box">
+              <h3 class="catalog-gallery-box-title">
+                SUNSET
+              </h3>
+              <p class="catalog-gallery-box-content">
+                Интернет-магазин с личным кабинетом
+              </p>
+              <a class="catalog-gallery-box-price" href="#">10000 Р.</a>
+            </div>
+          </div>
+          <div class="catalog-gallery-item">
+            <figure class="catalog-gallery-img">
+               <img src="http://placehold.it/150x100" alt="Forte" >
+            </figure>
+            <div class="catalog-gallery-box">
+              <h3 class="catalog-gallery-box-title">
+                FORTE
+              </h3>
+              <p class="catalog-gallery-box-content">
+                Отличный макет для личного блога
+              </p>
+              <a class="catalog-gallery-box-price" href="#">5000 Р.</a>
+            </div>
+          </div>
+          <div class="catalog-gallery-item">
+            <figure class="catalog-gallery-img">
+               <img src="http://placehold.it/150x100" alt="Modern Organic THAI" >
+            </figure>
+            <div class="catalog-gallery-box">
+              <h3 class="catalog-gallery-box-title">
+                MODERN ORGANIC THAI
+              </h3>
+              <p class="catalog-gallery-box-content">
+                Сайт для ресторана быстрого питания
+              </p>
+              <a class="catalog-gallery-box-price" href="#">12000 Р.</a>
+            </div>
+          </div>
+          <div class="catalog-gallery-item">
+            <figure class="catalog-gallery-img">
+               <img src="http://placehold.it/150x100" alt="AVENUE" >
+            </figure>
+            <div class="catalog-gallery-box">
+              <h3 class="catalog-gallery-box-title">
+                AVENUE
+              </h3>
+              <p class="catalog-gallery-box-content">
+                Макет для блога  о путешествиях
+              </p>
+              <a class="catalog-gallery-box-price" href="#">8000 Р.</a>
+            </div>
+          </div>
+          <div class="catalog-gallery-item">
+            <figure class="catalog-gallery-img">
+               <img src="http://placehold.it/150x100" alt="DOVETAIL" >
+            </figure>
+            <div class="catalog-gallery-box">
+              <h3 class="catalog-gallery-box-title">
+                DOVETAIL
+              </h3>
+              <p class="catalog-gallery-box-content">
+                Интернет-магазин с галереей товаров
+              </p>
+              <a class="catalog-gallery-box-price" href="#">14000 Р.</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="catalog-sheets">
+        <a class="catalog-sheets-link" href="#">1</a>
+        <a class="catalog-sheets-link" href="#">2</a>
+        <a class="catalog-sheets-link" href="#">3</a>
+        <a class="catalog-sheets-link" href="#">СЛЕДУЮЩАЯ</a>
+      </section>
+      <section class="map">
+        <div class="map-block">
+          <h3>
+            NЁRDS DESIGN STUDIO
+          </h3>
+          <p>
+            191186, Санкт-Петербург, <br>
+            ул. Б. Конюшенная, д. 19/8
+          </p>
+          <p>
+            тел. +7 (812) 275-75-75
+          </p>
+          <a href="#" >НАПИШИТЕ НАМ</a>
+        </div>
+        <div class="map-nerds-logo">
+           <img src="http://placehold.it/150x100" alt="nerds on dialog window" >
+        </div>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <div class="container">
+        <section class="footer-social">
+          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+        </section>
+        <section class="footer-discount">
+          <h1>
+            Давайте дружить, это выгодно!
+          </h1>
+          <p>
+            Скидка 10% для друзей из социальных сетей.
+          </p>
+        </section>
+      </div>
+    </footer>  
+  </body>
+</html>
