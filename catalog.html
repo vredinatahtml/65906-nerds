@@ -6,8 +6,8 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <header class="main-header">
-      <div class="main-header-block container">
+    <header class="catalog-main-header">
+      <div class="main-header-block container clearfix">
         <div class="nerds-logo">
           <img src="img/nerds-logo-139-56.png" width="139" height="56"  alt="Nerds logo">
         </div>
@@ -32,10 +32,11 @@
         </div>
       </div>
       <h1 class="main-header-title">
-        Добро пожаловать в магазин готовых макетов
+        ДОБРО ПОЖАЛОВАТЬ В МАГАЗИН ГОТОВЫХ МАКЕТОВ
       </h1>
     </header>
-    <main class="container">
+    <main  >
+     <div class="container clearfix">
       <section class="catalog-left-column">
         <form action="" method="post">
           <div class="catalog-filters">
@@ -47,13 +48,14 @@
                 <div class="price-filter-left-edge"></div>
                 <div class="price-filter-scale"></div>
                 <div class="price-filter-right-edge"></div>
+                <div class="price-filter-scale2"></div>
               </div>
               <label>
                 <span>ОТ</span>
                 <input type="text" id="price-filter-from" name="price-from" value="0">
               </label>
               <label> 
-                <span>ДО</span>
+                <span class="price-filter-to">ДО</span>
                 <input type="text" id="price-filter-to" name="price-to" value="15000">
               </label>
             </section>
@@ -99,7 +101,9 @@
                 Корзина
               </label>
             </section>
-            <input type="submit" id="catalog-filters-btn" name="filters-btn" value="ПОКАЗАТЬ">
+            <div class="show-btn">
+              <input type="submit" id="catalog-filters-btn" name="filters-btn" value="ПОКАЗАТЬ">
+            </div>
           </div>
         </form>
       </section>
@@ -112,7 +116,7 @@
           <a class="catalog-sort-up" href="#"></a>
           <a class="catalog-sort-down" href="#"></a>
         </div>
-        <div class="catalog-gallery">
+        <div class="catalog-gallery clearfix">
           <div class="product-item">
             <img src="img/aviator-240-240.jpg" width="240" height="240"  alt="Aviator" >
             <div class="product-box">
@@ -152,7 +156,7 @@
           <div class="product-item">
                <img src="img/MOT-240-240.jpg"  width="240" height="240"  alt="Modern Organic THAI" >
             <div class="product-box">
-              <h3 class="product-box-title">
+              <h3 class="product-box-title  ">
                 MODERN ORGANIC THAI
               </h3>
               <p class="product-box-content">
@@ -186,16 +190,17 @@
             </div>
           </div>
         </div>
+        <section class="catalog-sheets">
+          <a class="catalog-sheets-link" >1</a>
+          <a class="catalog-sheets-link" href="#">2</a>
+          <a class="catalog-sheets-link" href="#">3</a>
+          <a class="catalog-sheets-link" href="#">СЛЕДУЮЩАЯ</a>
+        </section>
       </section>
-      <section class="catalog-sheets">
-        <a class="catalog-sheets-link" >1</a>
-        <a class="catalog-sheets-link" href="#">2</a>
-        <a class="catalog-sheets-link" href="#">3</a>
-        <a class="catalog-sheets-link" href="#">СЛЕДУЮЩАЯ</a>
-      </section>
+      </div>
       <section class="map">
         <div class="map-block">
-          <h3>
+          <h3 class="map-title">
             NЁRDS DESIGN STUDIO
           </h3>
           <p>
@@ -207,20 +212,20 @@
           </p>
           <a href="#" >НАПИШИТЕ НАМ</a>
         </div>
-        <div class="map-nerds-logo">
+        <!--<div class="map-nerds-logo">
            <img src="img/nerds-dialog-231-190.png"  width="231" height="190" alt="nerds on dialog window" >
-        </div>
+        </div>-->
       </section>
     </main>
     <footer class="main-footer">
-      <div class="container">
+      <div class="container clearfix">
         <section class="footer-social">
           <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
           <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
           <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
         </section>
         <section class="footer-discount">
-          <p>
+          <p class="footer-title">
             Давайте дружить, это выгодно!
           </p>
           <p>
