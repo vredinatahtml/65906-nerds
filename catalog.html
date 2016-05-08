@@ -28,7 +28,7 @@
           </ul>
         </nav>
         <div class="main-header-cart">
-          <a class="login" href="#">КОРЗИНА</a>
+          <a class="login" href="#"><span class="icon-basket"></span>КОРЗИНА</a>
         </div>
       </div>
       <h1 class="main-header-title  ">
@@ -45,9 +45,13 @@
                 СТОИМОСТЬ:
               </h3>
               <div class="price-filter-box">
-                <div class="price-filter-left-edge"></div>
+                <div class="price-filter-edge">
+                  <div class="price-filter-point"></div>
+                </div>
                 <div class="price-filter-scale"></div>
-                <div class="price-filter-right-edge"></div>
+                <div class="price-filter-edge"> 
+                  <div class="price-filter-point"></div>
+                </div>
                 <div class="price-filter-scale2"></div>
               </div>
               <label>
@@ -63,16 +67,16 @@
               <h3 class="catalog-filters-title grid-filter-title">
                 СЕТКА:
               </h3>
-              <label>
                 <input type="radio" id="grid-filter-adaptive" name="grid" value="adaptive" checked >
-                Адаптивная 
+              <label for="grid-filter-adaptive">
+                 Адаптивная 
               </label>
-              <label>
                 <input type="radio" id="grid-filter-fixed" name="grid" value="fixed">
-                Фиксированная
+              <label for="grid-filter-fixed"> 
+                 Фиксированная
               </label>
-              <label>
-                <input type="radio" id="grid-filter-rubber" name="grid" value="rubber">
+              <input type="radio" id="grid-filter-rubber" name="grid" value="rubber">
+              <label for="grid-filter-rubber">
                 Резиновая
               </label>              
             </section>
@@ -80,24 +84,24 @@
               <h3 class="catalog-filters-title features-filter-title">
                 ОСОБЕННОСТИ:
               </h3>
-              <label>
                 <input type="checkbox" id="features-filter-slider" name="features-slider" value="slider" checked>
+              <label for="features-filter-slider" >
                 Слайдер
               </label>
-              <label>
-                <input type="checkbox" id="features-filter-advantages" name="features-advantages" value="advantages" >
+              <input type="checkbox" id="features-filter-advantages" name="features-advantages" value="advantages" >
+              <label for="features-filter-advantages" >
                 Блок преимуществ
               </label>
-              <label>
-                <input type="checkbox" id="features-filter-news" name="features-news" value="news" checked >
+              <input type="checkbox" id="features-filter-news" name="features-news" value="news" checked >
+              <label for="features-filter-news">
                 Новости
               </label>
-              <label>
-                <input type="checkbox" id="features-filter-gallery" name="features-gallery" value="gallery" >
+              <input type="checkbox" id="features-filter-gallery" name="features-gallery" value="gallery" >
+              <label for="features-filter-gallery">
                 Галерея
               </label>
-              <label>
-                <input type="checkbox" id="features-filter-cart" name="features-cart" value="cart" >
+              <input type="checkbox" id="features-filter-cart" name="features-cart" value="cart" >
+              <label for="features-filter-cart">
                 Корзина
               </label>
             </section>
@@ -113,11 +117,17 @@
           <a class="catalog-sort-link" href="#">ПО ЦЕНЕ</a>
           <a class="catalog-sort-link" href="#">ПО ТИПУ</a>
           <a class="catalog-sort-link" href="#">ПО ФУНКЦИОНАЛУ</a>
-          <a class="catalog-sort-up" href="#"></a>
-          <a class="catalog-sort-down" href="#"></a>
+          <a class="catalog-sort-dir" href="#"> <span class="icon-up-dir"></span></a>
+          <a class="catalog-sort-dir" href="#"><span class="icon-down-dir"></span></a>
+          
         </div>
         <div class="catalog-gallery">
           <div class="product-item">
+             <div class="product-item-decorate">
+                <div class="product-item-circle"></div>
+                <div class="product-item-circle"></div>
+                <div class="product-item-circle"></div>
+              </div>
             <img src="img/aviator-240-240.jpg" width="240" height="240"  alt="Aviator" >
             <div class="product-box">
               <h3 class="product-box-title">
@@ -130,6 +140,11 @@
             </div>
           </div>
           <div class="product-item">
+              <div class="product-item-decorate">
+                <div class="product-item-circle"></div>
+                <div class="product-item-circle"></div>
+                <div class="product-item-circle"></div>
+              </div>
                <img src="img/sunset-240-240.jpg"  width="240" height="240"  alt="Sunset" >
             <div class="product-box">
               <h3 class="product-box-title">
@@ -142,6 +157,11 @@
             </div>
           </div>
           <div class="product-item">
+              <div class="product-item-decorate">
+                <div class="product-item-circle"></div>
+                <div class="product-item-circle"></div>
+                <div class="product-item-circle"></div>
+              </div>
                <img src="img/forte-240-240.jpg"  width="240" height="240"  alt="Forte" >
             <div class="product-box">
               <h3 class="product-box-title">
@@ -154,6 +174,11 @@
             </div>
           </div>
           <div class="product-item">
+              <div class="product-item-decorate">
+                <div class="product-item-circle"></div>
+                <div class="product-item-circle"></div>
+                <div class="product-item-circle"></div>
+              </div>
                <img src="img/MOT-240-240.jpg"  width="240" height="240"  alt="Modern Organic THAI" >
             <div class="product-box">
               <h3 class="product-box-title  ">
@@ -166,6 +191,11 @@
             </div>
           </div>
           <div class="product-item">
+              <div class="product-item-decorate">
+                <div class="product-item-circle"></div>
+                <div class="product-item-circle"></div>
+                <div class="product-item-circle"></div>
+              </div>
                <img src="img/avenue-240-240.jpg"  width="240" height="240"  alt="AVENUE" >
             <div class="product-box">
               <h3 class="product-box-title">
@@ -178,6 +208,11 @@
             </div>
           </div>
           <div class="product-item">
+              <div class="product-item-decorate">
+                <div class="product-item-circle"></div>
+                <div class="product-item-circle"></div>
+                <div class="product-item-circle"></div>
+              </div>
                <img src="img/dovetail-239-240.jpg"  width="240" height="240"  alt="DOVETAIL" >
             <div class="product-box">
               <h3 class="product-box-title">
@@ -191,7 +226,7 @@
           </div>
         </div>
         <section class="catalog-sheets">
-          <a class="catalog-sheets-link" >1</a>
+          <a class="catalog-sheets-link catalog-on-page" >1</a>
           <a class="catalog-sheets-link" href="#">2</a>
           <a class="catalog-sheets-link" href="#">3</a>
           <a class="catalog-sheets-link" href="#">СЛЕДУЮЩАЯ</a>
@@ -199,6 +234,7 @@
       </section>
       </div>
       <section class="map">
+       <iframe   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5953794558643!2d30.321291582535864!3d59.93885598673645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1462535321760" width="1200" height="416" frameborder="0" style="border:0" allowfullscreen></iframe>
         <div class="map-block">
           <h3 class="map-title">
             NЁRDS DESIGN STUDIO
@@ -212,17 +248,17 @@
           </p>
           <a href="#" >НАПИШИТЕ НАМ</a>
         </div>
-        <!--<div class="map-nerds-logo">
+         <div class="map-nerds-logo">
            <img src="img/nerds-dialog-231-190.png"  width="231" height="190" alt="nerds on dialog window" >
-        </div>-->
+        </div> 
       </section>
     </main>
     <footer class="main-footer">
       <div class="container clearfix">
         <section class="footer-social">
-          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+          <a class="social-btn" href="#">Вктонтакте<span class="icon-vk"></span></a>
+          <a class="social-btn" href="#">Фэйсбук<span class="icon-facebook"></span></a>
+          <a class="social-btn" href="#">Инстаграмм<span class="icon-instagramm"></span></a>
         </section>
         <section class="footer-discount">
           <p class="footer-title">
