@@ -182,7 +182,7 @@ li {
   color: #000000; 
 }
 
-.main-header-slider {
+/*.main-header-slider {
   width: 880px;
   min-height: 310px;
   padding: 0 10px;
@@ -241,11 +241,11 @@ li {
   display: inline-block;
   width: 240px;
 }
-
+*/
 .advantages {
   margin-bottom: 77px;
- /* background: red;*/
-}
+ /* background: red; */
+} 
 
 .advantages-item {
   font-size: 0px;
@@ -361,23 +361,28 @@ li {
   margin-bottom: 42px;
 }
 
-.details-list li:before {
-  display: inline-block;
-  width: 25px;
-  height: 2px;
-  vertical-align: middle;
-  background: #fb565a;
-  margin-right: 8px;
-}
-
-
 .details-list li {
   display: block;
   font-size: 16px;
   line-height: 22px;
   vertical-align: middle;
-  padding: 11px 10px 10px  0px;
+  padding: 11px 10px 10px 20px;
+  
 }
+
+.details-list li::before {
+  display: inline-block;
+  font-size: 14px;
+ 
+  width: 25px;
+  height: 2px;
+  color:  #fb565a;
+  vertical-align: middle;
+  background: #fb565a;
+/*  margin-right: 8px;*/
+}
+
+
 
 .details-list-title {
   margin-bottom: 15px;
@@ -1025,9 +1030,7 @@ li {
     height:310px;
     /*padding-top:50px;*/
     margin:0 auto;
-    
     padding: 0 10px;
-  
     margin-bottom: 80px;
 }
 .slider input[type=radio] {
@@ -1069,14 +1072,21 @@ li {
     overflow:hidden;
 }
 .slide-text{
-    width:380px;
+    width: 470px;
     padding:30px 0;
     color:#283136;
+  font-size: 16px;
+  line-height: 22px;
+}
+.slide-text p { 
+margin-top: 20px;
 }
 .slide-title{
+  font-family: Roboto Medium;
     font-size:36px;
-    line-height:1;
-    font-weight:bold;
+    line-height: 36px;
+    font-style: normal;
+   /* font-weight:bold; */
     color:black;
 }
 .slide .btn{
