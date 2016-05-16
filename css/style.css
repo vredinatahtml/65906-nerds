@@ -7,7 +7,7 @@
 body {
   padding: 0px;
   margin: 0px;
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 22px;
@@ -119,7 +119,7 @@ body {
 h1 {
   padding: 0px;
   margin: 0px;
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   font-weight: 500;
   font-size: 40px;
   line-height: Auto;
@@ -130,7 +130,7 @@ h1 {
 h2 {
   padding: 0px;
   margin: 0px;
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   font-weight: 500;
   font-size: 36px;
   line-height: 36px;
@@ -316,7 +316,7 @@ li {
 }
 
 .advantages-item {
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   font-weight: 500;
   font-size: 0px;
   float: left;
@@ -594,10 +594,9 @@ li {
   font-size: 40px;
   line-height: normal;
   margin: 0 auto;
-  margin-left: 420px;
   text-align: center;
-  width: 648px;
   margin-top: 60px;
+  padding: 0 20px;
 }
 
 .catalog-left-column {
@@ -1131,7 +1130,7 @@ li {
 
 .show-btn input {
   border: none;
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   font-weight: 500;
   margin-top: 39px;
   text-align: center;
@@ -1214,7 +1213,7 @@ li {
 }
 
 .slide-title {
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   font-weight: 500;
   font-size: 36px;
   line-height: 36px;
@@ -1278,7 +1277,7 @@ li {
 /*==================================================*/
 
 .feedback label {
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   font-weight: 500;
   line-height: 18px;
   margin-bottom: 10px;
@@ -1286,7 +1285,7 @@ li {
 }
 
 textarea {
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   font-weight: 500;
   resize: none;
 }
