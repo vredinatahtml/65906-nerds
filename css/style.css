@@ -1,5 +1,5 @@
 .clearfix:after {
-  content: '';
+  content: "";
   display: table;
   clear: both;
 }
@@ -353,7 +353,7 @@ li {
   line-height: 18px;
   color: white;
   text-align: center;
-  padding: 8px 0;
+  padding: 10px 0;
   display: inline-block;
   background: #00ca74;
   width: 140px;
@@ -373,7 +373,7 @@ li {
   line-height: 18px;
   color: white;
   text-align: center;
-  padding: 8px 0;
+  padding: 10px 0;
   display: inline-block;
   background: #efc84a;
   width: 140px;
@@ -393,7 +393,7 @@ li {
   line-height: 18px;
   color: white;
   text-align: center;
-  padding: 8px 0;
+  padding: 10px 0;
   display: inline-block;
   background: #fb565a;
   width: 140px;
@@ -596,7 +596,7 @@ li {
   margin: 0 auto;
   text-align: center;
   margin-top: 60px;
-  padding: 0 20px;
+   padding: 0 60px 0 45px;
 }
 
 .catalog-left-column {
